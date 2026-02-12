@@ -54,13 +54,13 @@ Borrowers with higher loan-to-income ratios tend to default more frequently, hig
 Applicants with a history of default are significantly more likely to default again, reinforcing the importance of historical behavior in credit assessment.
 
 ### Dashboard
-Credit History Length by Default Status
+### Credit History Length by Default Status
 ![Credit History Length by Default Status](Images/Capture2.PNG)
 
-Loan-to-Income Ratio by Default Status
+### Loan-to-Income Ratio by Default Status
 ![Loan-to-Income Ratio by Default Status](Images/Capture.PNG)
 
-Income Distribution by Default Status
+### Income Distribution by Default Status
 ![Income Distribution by Default Status](Images/Capture3.PNG)
 
 ### Limitations
