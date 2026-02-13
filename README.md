@@ -1,9 +1,9 @@
 # Credit Risk Profiling & Default Drivers Analysis
-## Project Overview
+# Project Overview
 
 This project analyzes a consumer credit dataset to identify factors associated with loan default risk. The objective is to explore borrower characteristics, loan attributes, and affordability indicators in order to support more informed credit risk assessment and lending decisions.
 
-### Dataset
+## Dataset
 The dataset contains over 32,000 loan records with information on borrower demographics, income, employment history, loan characteristics, and default outcomes.
 ### Key fields include:
 
@@ -21,7 +21,7 @@ Historical default flag
 
 Data Quality & Preparation
 
-### Several data quality issues were identified and addressed prior to analysis:
+## Several data quality issues were identified and addressed prior to analysis:
 
 Removed records with implausible borrower ages
 
@@ -33,7 +33,7 @@ Standardized data types for numerical and categorical variables
 
 All data cleaning decisions were made conservatively and documented to avoid distorting the underlying risk distribution.
 
-### Key Analytical Questions
+## Key Analytical Questions
 
 What is the overall default rate in the loan portfolio?
 
@@ -43,7 +43,7 @@ Is a higher loan-to-income ratio associated with increased default risk?
 
 Does historical default behavior predict current default outcomes?
 
-### Key Findings
+## Key Findings
 
 The overall default rate in the dataset is approximately 22%, indicating a moderate level of credit risk.
 
@@ -53,7 +53,7 @@ Borrowers with higher loan-to-income ratios tend to default more frequently, hig
 
 Applicants with a history of default are significantly more likely to default again, reinforcing the importance of historical behavior in credit assessment.
 
-### Dashboard
+## Dashboard
 ### Credit History Length by Default Status
 ![Credit History Length by Default Status](Images/Capture2.PNG)
 
@@ -71,7 +71,7 @@ Income values are self-reported and may contain reporting bias.
 
 The analysis identifies associations rather than causal relationships.
 
-### Business Implications
+## Business Implications
 
 Loan grading appears to be an effective tool for differentiating borrower risk.
 
@@ -79,7 +79,7 @@ Borrowers with high loan-to-income ratios may require additional review or risk 
 
 Historical default indicators remain a strong predictor and should continue to inform credit decisioning processes.
 
-### Tools Used
+## Tools Used
 
 Python
 
